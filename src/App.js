@@ -4,9 +4,11 @@ import "./App.css";
 
 class App extends Component {
   render() {
-    return <div className="container">
-      <span className="text">In progress...</span>
-    </div>;
+    return (
+      <div className="container">
+        <span className="text">In progress... Yep, still in progess.</span>
+      </div>
+    );
   }
 }
 
